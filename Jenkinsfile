@@ -12,7 +12,7 @@ pipeline {
                 	branches: [[name: '*/main']], doGenerateSubmoduleConfigurations: false, 
                 	extensions: [], 
                 	submoduleCfg: [], 
-                	userRemoteConfigs: [[url: 'https://github.com/Naresh240/springbootCICD-demo.git']]])
+                	userRemoteConfigs: [[url: 'https://github.com/cloudtechmasters/springbootCICD-demo.git']]])
             }
         }
         stage ('Build Artifact') {
